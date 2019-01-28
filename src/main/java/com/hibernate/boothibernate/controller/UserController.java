@@ -38,8 +38,6 @@ public class UserController {
         User user = new User();
         user.setId(1);
         user.setJob("1");
-//        user.setName("");
-//        user.setId(1);
         user.setAge("3");
 //        userService.saveUser(user);
 

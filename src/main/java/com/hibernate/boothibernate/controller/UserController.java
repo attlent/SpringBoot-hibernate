@@ -39,11 +39,6 @@ public class UserController {
         user.setId(1);
         user.setJob("1");
         user.setAge("3");
-//        userService.saveUser(user);
-
-//       List<User> list = userService.getUser(user);
-//       List<User> list = userService.findByName(user);
-//        userService.updateNameById(user);
         userService.saveUser(user);
 
     }
